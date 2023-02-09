@@ -17,19 +17,20 @@
 }
 
 #JGMelon {
-    float: right;
+    float: left;
     margin: 60px;
-    padding: 50px;
+    padding: 30px;
     width: 600px;
     text-align: center;
     background-color: green;
 }
 
 .sidebar {
-    float: left;
+    float: right;
     width: 300px;
     margin: 0px;
     margin-top: 40px;
+    margin-right: 60px;
     
 }
 
@@ -38,6 +39,7 @@
     padding: 50px;
     width: 50%;
     text-align: center;
+    clear: both;
 }
 
 #heading {
