@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html>
 
+<!-- Header -->
+
+<head>
+    <title>City Guide</title>
+    <meta name="description"
+        content="My webpage serves as a guide to the city of New York with a couple locations of interest mentioned" />
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Fixed Bar-->
+    <nav class="bar">
+        <ul>
+            <li>
+                <b>City Guide: New York</b>
+            </li>
+            <li>
+                <a href="https://www.expedia.com/">Travel</a>
+            </li>
+            <li>
+                <a href="https://new.mta.info/maps">Public Transportation Maps</a>
+            </li>
+            <li>
+                <a href="https://www.history.com/topics/us-states/new-york-city">History</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    </div>
+    <!--Top -->
+    <div class='top' id="heading">
+        <!-- Locations -->
+        <img src="images/nyc1.jpg" alt="New York City" title="New York City" />
+
+        <!--Nav -->
+        <nav>
+            <a href="https://www.centralparknyc.org/">Central Park</a> |
+            <a href="https://www.metmuseum.org/">The Met</a> |
+            <a href="https://jgmelon-nyc.com/">JG Melon</a> |
+            <a href="https://www.amnh.org/">The Natural History Museum</a>
+        </nav>
+    </div>
+
+
+    <!-- Central Park -->
+    <div class='loc1' id="CentralPark">
+        <h2> Central Park</h2>
+        <img src="images/central.jpg" alt="Central Park" title="Central Park" />
+        <p> Central Park is one of the most famous parks in the world. It is the most visited urban park in the United
+            States and is the oldest public park in the United States. You walk your dog, have a picnic, bike, or just
+            go on
+            a stroll yourself.
+        </p>
+    </div>
+
+    <!-- The Met -->
+    <div class='loc2' id="Met">
+        <h2> The Metropolitan Museum of Art</h2>
+        <p> The Met is one of the most famous museums in the world! It is located on 84th street
+            and fifth avenue. It carries art from many different time periods and locations inlcuding:
+        </p>
+        <ul>
+            <li>Ancient Egypt</li>
+            <li>Medieval</li>
+            <li>Ancient Greek and Roman</li>
+        </ul>
+        <h4> Its hours of operation are shown in the table below:</h4>
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>8AM-4PM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>8AM-4PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8AM-4PM</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>8AM-4PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8AM-4PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Sidebar-->
+    <div class="sidebar">
+        <h3> More Info</h3>
+        <p> Address: 1291 3rd Ave, New York, NY 10021</p>
+        <p> Phone number: (212)-744-0585</p>
+    </div>
+    <!-- JG Melon -->
+    <div class='loc3' id="JGMelon">
+        <h2> JG Melon</h2>
+        <p> JG Melon is one of my favorite places to eat in New York City. It has some of the best burgers I have had
+            and is a fun place to go with friends. It has a nice atmosphere as it is always lively. The only thing is
+            that it only takes cash so make sure you bring some with you.
+        </p>
+    </div>
+
+    <!-- Natural History Museum -->
+    <div class='loc4' id="NaturalHistory">
+        <h2> Natural History Museum</h2>
+        <p> As an engineer, I love science. This is why the Natural History Museum was always a favorite. It gives the
+            history of the world through the lens of science which I enjoy. Additionally, there are many interactive
+            demos throughout the museum to use which add to the enjoyment. There are many dinosaur skeletons and
+            realisitic looking animal figures to learn about as well as human history.
+        </p>
+    </div>
+    <!-- Map -->
+    <div class='form' id="map">
+        <h3> Location</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059179054!2d-74.25986424431686!3d40.69714942231944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1675308772945!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <!-- Form -->
+    <form>
+        Would you visit New York?
+        <input type="text" name="visit">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
